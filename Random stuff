@@ -60,7 +60,7 @@ async block_660b3d12270777b0(args) {   if ((args["b5a5150aa72a1fee"] == true)) {
   if ((args["b5a5150aa72a1fee"] == false)) {   return (true) };
  }
 async block_fd9660acf11633d9(args) {   return (("[]")) 
-    if ("isPenguinMod": (boolean) == true) {Scratch.BlockShape.SQUARE}
+ {Scratch.BlockShape.SQUARE}
 }
 
 let extension = new Extension();
