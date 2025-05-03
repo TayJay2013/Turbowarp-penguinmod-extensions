@@ -51,7 +51,7 @@ const ExtForge = {
 
 class Extension {
 getInfo() {
-   return {"id":"TayJay2013RANDOMstuff","name":"Random stuff","color1":"#0000ff","blocks":[{"opcode":"block_302b47614aced6c2","text":"pi","blockType":"reporter","arguments":{}},{"opcode":"block_188121a838be426a","text":"tau","blockType":"reporter","arguments":{}},{"opcode":"block_566f6a5a7fbdff72","text":"random","blockType":"Boolean","arguments":{}},{"opcode":"block_660b3d12270777b0","text":"toggle [b5a5150aa72a1fee]","blockType":"Boolean","arguments":{"b5a5150aa72a1fee":{"type":"Boolean"}}},{"opcode":"block_fd9660acf11633d9","text":"blank array","blockType":"reporter",blockShape: "Scratch.BlockShape.SQUARE","arguments":{}}]}
+   return {"id":"TayJay2013RANDOMstuff","name":"Random stuff","color1":"#0000ff","blocks":[{"opcode":"block_302b47614aced6c2","text":"pi","blockType":"reporter","arguments":{}},{"opcode":"block_188121a838be426a","text":"tau","blockType":"reporter","arguments":{}},{"opcode":"block_566f6a5a7fbdff72","text":"random","blockType":"Boolean","arguments":{}},{"opcode":"block_660b3d12270777b0","text":"toggle [b5a5150aa72a1fee]","blockType":"Boolean","arguments":{"b5a5150aa72a1fee":{"type":"Boolean"}}},{"opcode":"block_fd9660acf11633d9","text":"blank array","blockType":"reporter","blockShape":"Scratch.BlockShape.SQUARE","arguments":{}}]}
 }
 async block_302b47614aced6c2(args) {   return (("3.14159265358979323846264338327950288419716939937510")) }
 async block_188121a838be426a(args) {   return ((Number(await extension["block_302b47614aced6c2"]({})) * (2))) }
