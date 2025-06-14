@@ -85,7 +85,7 @@
                     "arguments": {}
                 }, {
                     "opcode": "block_c83d1d8493f3720f",
-                    "text": "",
+                    "text": " ",
                     "blockType": "reporter",
                     "arguments": {}
                 }, {
